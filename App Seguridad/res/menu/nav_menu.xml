@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/file1"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/file2"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/file3"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/file4"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/file5"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="false"/>
+    <item
+        android:id="@+id/file6"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="false"/>
+    <item
+        android:id="@+id/file7"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="false"/>
+    <item
+        android:id="@+id/file8"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="false"/>
+    <item
+        android:id="@+id/file9"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="false"/>
+    <item
+        android:id="@+id/file10"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="false"/>
+    <item
+        android:id="@+id/file11"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="false"/>
+    <item
+        android:id="@+id/file12"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="false"/>
+    <item
+        android:id="@+id/file13"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="false"/>
+    <item
+        android:id="@+id/file14"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="@string/newTitle"
+        android:visible="false"/>
+    <item
+        android:id="@+id/file15"
+        android:icon="@drawable/ic_baseline_label_important_24"
+        android:title="NEW"
+        android:visible="false"/>
+
+    <item android:title="Ajustes">
+        <menu>
+            <item
+                android:id="@+id/newAlarma"
+                android:icon="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:title="Crear Alarma"/>
+
+            <item
+                android:id="@+id/delAlarma"
+                android:icon="@drawable/ic_baseline_clear_24"
+                android:title="Quitar Alarma"/>
+
+            <item
+                android:id="@+id/newMember"
+                android:icon="@drawable/ic_baseline_control_point_24"
+                android:title="Agregar miembro"/>
+
+            <item
+                android:id="@+id/delMember"
+                android:icon="@drawable/ic_baseline_remove_circle_outline_24"
+                android:title="Eliminar miembro"/>
+
+        </menu>
+    </item>
+
+    <item android:title="Aplicación">
+        <menu>
+            <item
+                android:id="@+id/infobutton"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="Información"/>
+
+            <item
+                android:id="@+id/logOut"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Cerrar sesión"/>
+        </menu>
+    </item>
+
+</menu>
